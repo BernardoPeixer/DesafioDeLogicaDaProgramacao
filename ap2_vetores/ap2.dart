@@ -1,7 +1,7 @@
 import 'dart:math';
 import '../utils/terminal_utils.dart';
 
-void main() {
+void vetorInformado() {
   Random random = Random();
 
   var tamanhoDaLista =
