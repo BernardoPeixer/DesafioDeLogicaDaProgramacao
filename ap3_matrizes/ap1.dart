@@ -18,7 +18,7 @@ List<List<int>> criarMatriz(int linhas, int colunas) {
   for (int i = 0; i < linhas; i++) {
     List<int> linha = [];
     for (int j = 0; j < colunas; j++) {
-      linha.add(random.nextInt(101)); // Números aleatórios de 0 a 100
+      linha.add(random.nextInt(101));
     }
     matriz.add(linha);
   }
@@ -29,6 +29,6 @@ List<List<int>> criarMatriz(int linhas, int colunas) {
 void imprimirMatriz(List<List<int>> matriz) {
   for (List<int> linha in matriz) {
     print(linha
-        .join(' | ')); // Imprime a linha como uma string separada por espaço
+        .join(' | '));
   }
 }
